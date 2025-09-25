@@ -28,7 +28,7 @@ public class Level1 extends GameLevel implements ActionListener {
         super();
         t = new Timer(60000,this);
         CharacterController.two = false;
-        try{ l1m = new SoundClip("data/l1m.mp3");
+        try{ l1m = new SoundClip("data/l1m.wav");
             l1m.loop();
         }catch (UnsupportedAudioFileException | IOException | LineUnavailableException e){
             System.out.println(e);}

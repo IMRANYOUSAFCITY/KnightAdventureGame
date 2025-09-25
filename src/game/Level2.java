@@ -41,7 +41,7 @@ public class Level2 extends GameLevel implements ActionListener,StepListener {
         controller.controlcounter = 0;
         CharacterController.two = true;
         CharacterController.right = true;
-        try{ l2m = new SoundClip("data/l2m.mp3");
+        try{ l2m = new SoundClip("data/l2m.wav");
             l2m.loop();
         }catch (UnsupportedAudioFileException | IOException | LineUnavailableException e){
             System.out.println(e);}
